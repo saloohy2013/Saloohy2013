@@ -72,6 +72,26 @@
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     }
 
+    .shorts-links {
+      margin: 2rem auto;
+      max-width: 600px;
+      text-align: left;
+      font-size: 1.1rem;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    }
+
+    .shorts-links a {
+      display: block;
+      color: #ff3b3f;
+      margin-bottom: 0.7rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .shorts-links a:hover {
+      text-decoration: underline;
+    }
+
     footer {
       margin: 3rem 0 1rem;
       font-size: 0.9rem;
@@ -88,13 +108,17 @@
   <button id="subscribeBtn">Subscribe Now</button>
   <button id="viewChannelBtn">View Channel</button>
 
+  <!-- Regular embedded videos -->
   <div class="video-grid">
-    <!-- Replace the video IDs below with your own video IDs -->
     <iframe src="https://www.youtube.com/embed/TlpffrEyseE" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/6E6MT0HWSr0" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/ltKvPfIbhqM" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/embed/-yYcGSsUQ9w" allowfullscreen></iframe>
+  </div>
 
+  <!-- Shorts as links -->
+  <div class="shorts-links">
+    <h2>Watch My Shorts</h2>
+    <a href="https://www.youtube.com/shorts/6E6MT0HWSr0" target="_blank" rel="noopener noreferrer">Cockatiel Birb Shows Affection</a>
+    <a href="https://www.youtube.com/shorts/-yYcGSsUQ9w" target="_blank" rel="noopener noreferrer">Short 2 Title</a>
+    <a href="https://www.youtube.com/shorts/ltKvPfIbhqM" target="_blank" rel="noopener noreferrer">Short 3 Title</a>
   </div>
 
   <footer>Thank you for supporting @saloohy2013!</footer>
